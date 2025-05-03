@@ -1,0 +1,101 @@
+/* Umum */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9ec08;
+  margin: 0;
+  padding: 0;
+  color: #030302;
+}
+
+/* Navigasi */
+nav {
+  background-color: #04f710; 
+  padding: 12px 20px;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: #f10606;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Container Umum */
+.container, .content {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: #63641b;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Box Login */
+.login-box {
+  width: 100%;
+  max-width: 400px;
+  background-color: #e00707;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Login */
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #85b90a; /* Coklat tua */
+  color: rgb(209, 46, 46);
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #8b1a1a;
+}
+
+/* Headings */
+h1, h2 {
+  color: #5d1a1a;
+}
+
+/* List dan Teks */
+ul {
+  padding-left: 20px;
+}
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Gambar Produk */
+img.product {
+  width: 150px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+  .container, .content {
+      margin: 20px;
+      padding: 20px;
+  }
+
+  nav {
+      flex-direction: column;
+      gap: 10px;
+  }
+}
